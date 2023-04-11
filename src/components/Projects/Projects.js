@@ -68,7 +68,7 @@ function Projects() {
             <ProjectCard
               imgPath={startup}
               isBlog={false}
-              title="Indian Start-up Ecosystem"
+              title="Indian Start-up Ecosystem Analysis"
               description="The world of startups has seen exponential growth in recent years, with innovative ideas and technologies disrupting various industries. One crucial aspect of any startup's success is funding, and the ability to secure funding can be a make-or-break factor in the early stages of a startup's life. In this context, we analyse four datasets containing information on funding received by startups across various sectors and stages in India from 2018 and 2021"
               ghLink="https://github.com/penscola/LP1-Data-Analysis-India-Startups"
             />
