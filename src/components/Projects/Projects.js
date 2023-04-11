@@ -7,7 +7,7 @@ import leaf from "../../Assets/Projects/leaf.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 // import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/nftcard.png";
 
 function Projects() {
   return (
@@ -39,6 +39,7 @@ function Projects() {
               title="Online Multiplayer NFT Game"
               description="My NFT(non-fungible tokens) was built from Node.js which utilizes blockchain technology to manage digital assets that represent individual cards. Each card is unique and can be traded or sold on various marketplaces. The game mechanics may involve battles between players, with the outcome determined by the strengths and weaknesses of the cards in play"
               ghLink="https://github.com/penscola/NFT_CARD_GAME"
+              demoLink="https://bespoke-lily-74f273.netlify.app/create-battle"
             />
           </Col>
 
