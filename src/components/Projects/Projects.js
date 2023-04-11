@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.jpeg";
+import startup from "../../Assets/Projects/startup.jpeg";
 // import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
@@ -60,6 +61,16 @@ function Projects() {
               title="Heart Diseases Analysis"
               description="The data set dates from 1988 and where it consisted of four databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 14 of them. The target field refers to the presence of heart disease in the patient. It is integer valued 0 = no disease and 1 = disease."
               ghLink="https://github.com/penscola/Heart_diseases_analysis"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={startup}
+              isBlog={false}
+              title="Indian Start-up Ecosystem"
+              description="The world of startups has seen exponential growth in recent years, with innovative ideas and technologies disrupting various industries. One crucial aspect of any startup's success is funding, and the ability to secure funding can be a make-or-break factor in the early stages of a startup's life. In this context, we analyse four datasets containing information on funding received by startups across various sectors and stages in India from 2018 and 2021"
+              ghLink="https://github.com/penscola/LP1-Data-Analysis-India-Startups"
             />
           </Col>
         </Row>
