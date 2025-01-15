@@ -1,39 +1,57 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: "Potato Disease Classification",
+        description: "Developed AI-powered solutions, including a financial mobile app using TypeScript, AWS, and " +
+            "OpenAI, with features like OTP authentication, voice-to-text via AWS Transcribe, and automated term " +
+            "sheet generation. Built a potato disease classification system using TensorFlow and CNNs, deployed on " +
+            "web and mobile with ReactJS and React Native, leveraging Google Cloud Functions for serverless integration.",
+        tools: ['Python', 'TensorFlow', 'FastAPI', 'ReactJS', "React Native", 'GCP', "Jupyter Notebook",
+            "Google Cloud SDK", 'Kaggle'],
+        role: "AI Developer",
         code: '',
         demo: '',
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
+        name: 'Sentiment Analysis with Transformer Models',
+        description: "Developed a sentiment analysis system using transformer models (RoBERTa, BERT, DistilBERT) " +
+            "to classify text sentiment with fine-tuning, achieving a balanced F1-score of 0.762 using DistilBERT. " +
+            "Optimized performance with Hugging Face Trainer API and made the model publicly available on " +
+            "HuggingFace Model Hub. Deployed the model via Hugging Face Spaces using Gradio and Streamlit, enabling " +
+            "interactive sentiment prediction through a user-friendly web interface.",
+        tools: ['Python', 'BERT', 'RoBERTa', 'DistilBERT', 'TensorFlow', "Jupyter Notebook", 'Gradio', 'Streamlit',
+            "Hugging Face"],
+        role: "Machine Learning Engineer",
         code: '',
         demo: '',
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: "End-to-End Machine Learning Project using FastAPI",
+        description: "My team Developed a sepsis prediction system for ICU patients using FastAPI, integrating machine " +
+            "learning models for accurate diagnostics. Conducted EDA with Seaborn and Matplotlib, identifying key " +
+            "trends in patient data. Trained and evaluated nine models, selecting Gradient Boosting with a " +
+            "0.852 F1-score after hyper parameter tuning via GridSearchCV. Enhanced interpretability through " +
+            "ROC curves and feature importance visualization.",
+        tools: ['FastAPI', 'Python', 'XGBoost', 'RandomForest', 'GradientBoosting', 'KNeighborsClassifier', 'SVM',
+            'LogisticRegression', 'Seaborn', 'Matplotlib'],
         code: '',
-        role: 'Full Stack Developer',
+        role: "Machine Learning Engineer",
         demo: '',
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: "Predicting Churn Rate of Customers",
+        description: "My team and I Implemented data preprocessing, feature engineering, and visualization to analyze " +
+            "customer churn, identifying key factors like tenure and contract type. Developed and fine-tuned " +
+            "classification models, achieving 80.44% accuracy, with Logistic Regression selected as the " +
+            "best performer (73.43% precision, high ROC AUC). Conducted hypothesis testing to validate the impact " +
+            "of features like internet service and billing methods.",
+        tools: ['Python', 'Scikit-learn', 'Seaborn', 'Pandas', 'Matplotlib', 'Numpy', 'Scipy', "Jupyter Notebook"],
         code: '',
         demo: '',
-        role: 'Full Stack Developer',
+        role: "Machine Learning Engineer",
     }
 ];
 
